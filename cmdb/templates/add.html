@@ -1,0 +1,6 @@
+<!-- templates/add_my_model.html -->  
+<form method="post">  
+    {% csrf_token %}  
+    <input type="text" name="name" placeholder="Enter name" required>  
+    <button type="submit">Add</button>  
+</form>
